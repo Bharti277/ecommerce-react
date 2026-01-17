@@ -12,7 +12,7 @@ const Navbar = () => {
             <img src={logo} alt="" />
           </Link>
         </div>
-        <ul className="flex">
+        <ul className="flex items-center">
           <li>
             <NavLink to="/">Home</NavLink>
           </li>

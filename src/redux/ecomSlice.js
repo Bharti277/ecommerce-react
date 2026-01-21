@@ -7,12 +7,12 @@ const ecomSlice = createSlice({
     cart: [],
   },
   reducers: {
-    // setProducts: (state, action) => {
-    //   state.products = action.payload;
-    // },
-    // addToCart: (state, action) => {
-    //   state.cart.push(action.payload);
-    // },
+    setProducts: (state, action) => {
+      state.products = action.payload;
+    },
+    addToCart: (state, action) => {
+      state.cart.push(action.payload);
+    },
   },
 });
 export const { setProducts, addToCart } = ecomSlice.actions;
